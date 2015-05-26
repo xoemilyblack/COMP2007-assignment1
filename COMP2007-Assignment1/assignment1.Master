@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="assignment1.master.cs" Inherits="COMP2007_Assignment1.assignment1" %>
+
+<!DOCTYPE html>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+<link href="styles.css" rel="stylesheet" />
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Game Calculator</title>
+</head>
+<body>
+     <h1 class="text-center">Game Calculator</h1>
+    <form id="form1" runat="server">
+     <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+   
+        </asp:ContentPlaceHolder>
+             <!-- Start Footer -->
+        <footer class="text-center">
+            Copyright 2015 | Emily Black | Assignment 1
+        </footer>
+        <!-- End Footer -->
+    </div>
+    
+ </form>
+</body>
+</html>

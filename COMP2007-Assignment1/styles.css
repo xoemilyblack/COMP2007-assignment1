@@ -1,0 +1,32 @@
+﻿body {
+    background-image: url('images/background.jpg');
+    background-repeat: round;
+    font-family: 'Muli', sans-serif;
+}
+
+h1, footer {
+    font-weight:bolder;
+    color: white;
+}
+
+
+div .panel
+{
+    padding: 20px;
+    margin:20px;
+
+}
+
+div .btn-block
+{
+    text-align:center;
+}
+
+div .alert
+{
+    color:red;
+    text-align:center;
+}
+
+
+
