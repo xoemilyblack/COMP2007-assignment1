@@ -44,7 +44,7 @@
         </asp:LinkButton>
     </div>
     <!-- Panel for Summary Information -->
-    <asp:Panel ID="pnlInfo" CssClass="form-group" Visible="false" runat="server">
+    <asp:Panel ID="pnlInfo" CssClass="panel panel-info" Visible="false" runat="server">
         <h4>Summary Information</h4><br />
         <asp:Label ID="lblGamesWon" runat="server"></asp:Label><br />
         <asp:Label ID="lblGamesLost" runat="server"></asp:Label><br />
