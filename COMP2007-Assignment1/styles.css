@@ -5,28 +5,21 @@
 }
 
 h1, footer {
-    font-weight:bolder;
+    font-weight: bolder;
     color: white;
 }
 
 
-div .panel
-{
+div .panel {
     padding: 20px;
-    margin:20px;
-
+    margin: 20px;
 }
 
-div .btn-block
-{
-    text-align:center;
+div .btn-block {
+    text-align: center;
 }
 
-div .alert
-{
-    color:red;
-    text-align:center;
+div .alert {
+    color: red;
+    text-align: center;
 }
-
-
-

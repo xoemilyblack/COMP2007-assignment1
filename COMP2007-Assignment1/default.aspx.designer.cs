@@ -13,24 +13,6 @@ namespace COMP2007_Assignment1 {
     public partial class _default {
         
         /// <summary>
-        /// pnlErrors control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel pnlErrors;
-        
-        /// <summary>
-        /// lblErrors control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblErrors;
-        
-        /// <summary>
         /// lblGame1 control.
         /// </summary>
         /// <remarks>
@@ -119,15 +101,6 @@ namespace COMP2007_Assignment1 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Panel pnlInfo;
-        
-        /// <summary>
-        /// lblSummary control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblSummary;
         
         /// <summary>
         /// lblGamesWon control.
