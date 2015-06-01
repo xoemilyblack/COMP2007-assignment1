@@ -27,6 +27,7 @@ namespace COMP2007_Assignment1
                 gamesLost = 0;
             double winningPerc = 0;
 
+            //reset labels 
             lblAllowedPoints.Text = "";
             lblAverageSpec.Text = "";
             lblSpectators.Text = "";
@@ -72,10 +73,12 @@ namespace COMP2007_Assignment1
                 gamesLost++;
             }
            
+                //parsing text boxes to numbers
                 pointsScored = int.Parse(gameControl1.returnPointsScored) + int.Parse(gameControl2.returnPointsScored) + int.Parse(gameControl3.returnPointsScored) + int.Parse(gameControl4.returnPointsScored);
                 pointsAllowed = int.Parse(gameControl1.returnPointsAllowed) + int.Parse(gameControl2.returnPointsAllowed) + int.Parse(gameControl3.returnPointsAllowed) + int.Parse(gameControl4.returnPointsAllowed);
                 numOfSpecs = int.Parse(gameControl1.returnSpectators) + int.Parse(gameControl2.returnSpectators) + int.Parse(gameControl3.returnSpectators) + int.Parse(gameControl4.returnSpectators);
- 
+                
+                //calculations
                 averageSpecs = numOfSpecs / 4;
                 diffInPoints = pointsAllowed - pointsScored;
                 winningPerc = (((Double) gamesWon / 4) * 100);
